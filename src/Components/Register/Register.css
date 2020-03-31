@@ -1,0 +1,16 @@
+.RegisterMain {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center; 
+    justify-content: center;
+}
+
+.RegisterInner {
+    padding-top: 10vw;
+}
+
+.RegisterInner input {
+    margin: 2vw;
+}
+
