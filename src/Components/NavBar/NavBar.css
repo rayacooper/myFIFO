@@ -3,3 +3,23 @@
     height: 5vw;
     background-color: aqua;
 }
+
+.NavBarLinks {
+    display: none;
+}
+
+.NavBarMenu {
+    display: flex;
+}
+
+@media screen and (min-width: 800px){
+
+    .NavBarLinks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .NavBarMenu{
+        display: none;
+    }
+}

@@ -1,11 +1,14 @@
 import React from 'react';
-import Register from './Components/Register/Register'
+import {BrowserRouter as Router} from 'react-router-dom';
+import routes from './Routes';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <Router>
+        {routes}
+      </Router>
     </div>
   );
 }
